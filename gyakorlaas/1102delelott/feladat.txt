@@ -1,0 +1,30 @@
+1. Titkos Kód Ellenőrzése
+Írj egy programot, amely egy titkos kódot kap parancssori argumentumként. A kód formátuma: 1234-5678-9012-3456. Minden kódrész egy négyjegyű számot tartalmaz.
+
+A program feladata, hogy minden egyes kódrész utolsó számjegyének összegét kiszámolja.
+Ha az összeg osztható 5-tel, írja ki: "Érvényes kód". Ha nem, írja ki: "Érvénytelen kód".
+Hibakezelés: Ellenőrizze, hogy pontosan egy parancssori argumentumot kapott-e, és hogy a kód formátuma helyes-e.
+
+
+2. Szélturbina Felügyelet
+Egy szélturbina forgási adatainak ellenőrzéséhez készíts programot, amely parancssori argumentumként egy percenkénti fordulatszám listát kap (például: 10-15-20-25-30). A program feladata:
+
+Szétválasztani a fordulatszámokat és ellenőrizni, hogy van-e olyan fordulatszám, ami 25 vagy annál magasabb.
+Ha talál ilyen értéket, írja ki annak a pozícióját (a pozíció az első értéktől kezdve 1).
+Ha nincs ilyen, írja ki, hogy "A turbina biztonságos üzemmódban működik".
+Hibakezelés: Ellenőrizze, hogy a bemenet helyes formátumú-e, és hogy egy parancssori argumentumot kapott.
+
+
+3. Bányász Adat Ellenőrző
+A program egy bányász által feltárt ásványok súlyadatait kapja meg, egyetlen parancssori argumentumként, ahol minden súly 2 jegyű számként szerepel, vesszővel elválasztva, például 12,15,18,09,20.
+
+A program számolja meg, hány olyan ásvány van, amelynek súlya 10 és 20 között van (beleértve mindkét határt).
+Ha talál ilyen ásványokat, írja ki a számukat. Ha nem talál egyet sem, írja ki: "Nincs megfelelő ásvány".
+Hibakezelés: Ellenőrizze, hogy pontosan egy parancssori argumentumot kapott-e, és hogy a formátum helyes.
+
+
+4. Számsor Ellenőrző
+Készíts egy programot, amely egy speciális formátumú számsort kap, például: 12-34_56-78.
+
+Az aláhúzásjel (_) választja el a szakaszokat, és minden szakasz számokból áll. A programnak ki kell számolnia minden szakasz összegét (például 12+34 és 56+78), majd ellenőriznie kell, hogy az összeg páros-e.
+Ha minden szakaszösszeg páros, írja ki: "Minden szakasz megfelelő". Ha van olyan szakasz, amely páros összeggel nem rendelkezik, írja ki: "Nem megfelelő szakasz található".
